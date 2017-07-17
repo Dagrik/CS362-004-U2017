@@ -427,7 +427,7 @@ int scoreFor (int player, struct gameState *state) {
       if (state->hand[player][i] == province) { score = score + 6; };
       if (state->hand[player][i] == great_hall) { score = score + 1; };
       if (state->hand[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
-    }
+      }
 
   //score from discard
   for (i = 0; i < state->discardCount[player]; i++)
@@ -438,7 +438,7 @@ int scoreFor (int player, struct gameState *state) {
       if (state->discard[player][i] == province) { score = score + 6; };
       if (state->discard[player][i] == great_hall) { score = score + 1; };
       if (state->discard[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
-    }
+       }
 
   //score from deck
   for (i = 0; i < state->discardCount[player]; i++)
@@ -449,6 +449,7 @@ int scoreFor (int player, struct gameState *state) {
       if (state->deck[player][i] == province) { score = score + 6; };
       if (state->deck[player][i] == great_hall) { score = score + 1; };
       if (state->deck[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+      
     }
 
   return score;
@@ -654,7 +655,7 @@ int getCost(int cardNumber)
 	int temphand[MAX_HAND];
 	int z = 0;  //Temp Hand Counter
 
-	  while(drawntreasure<3){  //******changed count of drawn treasure to 3 from 2*****
+	  while(drawntreasure<3){  
 		if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
 		  shuffle(currentPlayer, state);
 		}

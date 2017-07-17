@@ -1,0 +1,2048 @@
+Result for running Dominion Unit tests:
+unittest1.c:
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+
+
+***Test Attempt 1***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 2***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 3***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 4***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 5***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 6***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 7***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 8***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 9***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 10***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+ALL initializeGame() TESTS PASSED SUCCESSFULLY.
+File 'dominion.c'
+Lines executed:17.22% of 569
+Branches executed:16.31% of 417
+Taken at least once:14.63% of 417
+Calls executed:6.93% of 101
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+
+Testing updateCoin() With Various Hands.
+
+Testing Various Hands - Tests Passed.
+
+Testing Bonus Coins.
+
+Testing Bonus Coins - Tests Passed.
+
+Testing Mix of Hands and Bonuses.
+
+Testing Hands with Bonuses - Tests Passed.
+
+
+***All Tests Passed.***
+File 'dominion.c'
+Lines executed:17.57% of 569
+Branches executed:16.31% of 417
+Taken at least once:15.11% of 417
+Calls executed:6.93% of 101
+Creating 'dominion.c.gcov'
+
+unittest3.c:
+
+***Checking For No Match.***
+No Match Tests Passed.
+
+***Checking For All Match.***
+All Match Tests Passed.
+
+***Checking For Mixed Matches.***
+Mixed Tests Passed.
+
+
+***All Tests Passed.***
+File 'dominion.c'
+Lines executed:19.16% of 569
+Branches executed:19.18% of 417
+Taken at least once:17.99% of 417
+Calls executed:6.93% of 101
+Creating 'dominion.c.gcov'
+
+unittest4.c:
+No-Point in Hand - Test Passed.
+No-Point in Discard - Test Passed.
+No-Point in Deck - Test Passed.
+No-Point in Hand and Discard - Test Passed.
+No-Point in Hand and Deck - Test Passed.
+No-Point in Discard and Deck - Test Passed.
+No-Point in All 3 - Test Passed.
+Estate Pile in Hand - Test Passed.
+Estate Pile in Discard - Test Passed.
+Estate Pile in Deck - Test Passed.
+Estate Pile in Hand and Discard - Test Passed.
+Estate Pile in Hand and Deck - Test Passed.
+Estate Pile in Discard and Deck - Test Passed.
+Estate Pile in All 3 - Test Passed.
+Duchy Pile in Hand - Test Passed.
+Duchy Pile in Discard - Test Passed.
+Duchy Pile in Deck - Test Passed.
+Duchy Pile in Hand and Discard - Test Passed.
+Duchy Pile in Hand and Deck - Test Passed.
+Duchy Pile in Discard and Deck - Test Passed.
+Duchy Pile in All 3 - Test Passed.
+Province Pile in Hand - Test Passed.
+Province Pile in Discard - Test Passed.
+Province Pile in Deck - Test Passed.
+Province Pile in Hand and Discard - Test Passed.
+Province Pile in Hand and Deck - Test Passed.
+Province Pile in Discard and Deck - Test Passed.
+Province Pile in All 3 - Test Passed.
+Curse Pile in Hand - Test Passed.
+Curse Pile in Discard - Test Passed.
+Curse Pile in Deck - Test Passed.
+Curse Pile in Hand and Discard - Test Passed.
+Curse Pile in Hand and Deck - Test Passed.
+Curse Pile in Discard and Deck - Test Passed.
+Curse Pile in All 3 - Test Passed.
+Great Hall Pile in Hand - Test Passed.
+Great Hall Pile in Discard - Test Passed.
+Great Hall Pile in Deck - Test Passed.
+Great Hall Pile in Hand and Discard - Test Passed.
+Great Hall Pile in Hand and Deck - Test Passed.
+Great Hall Pile in Discard and Deck - Test Passed.
+Great Hall Pile in All 3 - Test Passed.
+Garden Pile in Hand - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Discard - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Deck - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Hand and Discard - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Hand and Deck - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Discard and Deck - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in All 3 - Test Failed.  Actual: 0. Expected: 3.
+Mixed Pile in Hand - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Discard - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Deck - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Hand and Discard - Test Failed.  Actual: 18. Expected: 12.
+Mixed Pile in Hand and Deck - Test Failed.  Actual: 18. Expected: 12.
+Mixed Pile in Discard and Deck - Test Failed.  Actual: 18. Expected: 12.
+Mixed Pile in All 3 - Test Failed.  Actual: 27. Expected: 12.
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:23.37% of 569
+Branches executed:29.26% of 417
+Taken at least once:28.06% of 417
+Calls executed:9.90% of 101
+Creating 'dominion.c.gcov'
+
+cardtest1.c:
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 6 Expected 7
+Deck: Actual 498 Expected 497
+Discard: Actual 0 Expected 0
+Played: Actual 1 Expected 1
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 7 Expected 8
+Deck: Actual 496 Expected 495
+Discard: Actual 0 Expected 0
+Played: Actual 2 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 8 Expected 9
+Deck: Actual 494 Expected 493
+Discard: Actual 0 Expected 0
+Played: Actual 3 Expected 3
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 9 Expected 10
+Deck: Actual 492 Expected 491
+Discard: Actual 0 Expected 0
+Played: Actual 4 Expected 4
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 10 Expected 11
+Deck: Actual 490 Expected 489
+Discard: Actual 0 Expected 0
+Played: Actual 5 Expected 5
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 11 Expected 12
+Deck: Actual 488 Expected 487
+Discard: Actual 0 Expected 0
+Played: Actual 6 Expected 6
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 12 Expected 13
+Deck: Actual 486 Expected 485
+Discard: Actual 0 Expected 0
+Played: Actual 7 Expected 7
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 13 Expected 14
+Deck: Actual 484 Expected 483
+Discard: Actual 0 Expected 0
+Played: Actual 8 Expected 8
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 14 Expected 15
+Deck: Actual 482 Expected 481
+Discard: Actual 0 Expected 0
+Played: Actual 9 Expected 9
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 15 Expected 16
+Deck: Actual 480 Expected 479
+Discard: Actual 0 Expected 0
+Played: Actual 10 Expected 10
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 16 Expected 17
+Deck: Actual 478 Expected 477
+Discard: Actual 0 Expected 0
+Played: Actual 11 Expected 11
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 17 Expected 18
+Deck: Actual 476 Expected 475
+Discard: Actual 0 Expected 0
+Played: Actual 12 Expected 12
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 18 Expected 19
+Deck: Actual 474 Expected 473
+Discard: Actual 0 Expected 0
+Played: Actual 13 Expected 13
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 19 Expected 20
+Deck: Actual 472 Expected 471
+Discard: Actual 0 Expected 0
+Played: Actual 14 Expected 14
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 20 Expected 21
+Deck: Actual 470 Expected 469
+Discard: Actual 0 Expected 0
+Played: Actual 15 Expected 15
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 21 Expected 22
+Deck: Actual 468 Expected 467
+Discard: Actual 0 Expected 0
+Played: Actual 16 Expected 16
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 22 Expected 23
+Deck: Actual 466 Expected 465
+Discard: Actual 0 Expected 0
+Played: Actual 17 Expected 17
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 23 Expected 24
+Deck: Actual 464 Expected 463
+Discard: Actual 0 Expected 0
+Played: Actual 18 Expected 18
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 24 Expected 25
+Deck: Actual 462 Expected 461
+Discard: Actual 0 Expected 0
+Played: Actual 19 Expected 19
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 25 Expected 26
+Deck: Actual 460 Expected 459
+Discard: Actual 0 Expected 0
+Played: Actual 20 Expected 20
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 26 Expected 27
+Deck: Actual 458 Expected 457
+Discard: Actual 0 Expected 0
+Played: Actual 21 Expected 21
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 27 Expected 28
+Deck: Actual 456 Expected 455
+Discard: Actual 0 Expected 0
+Played: Actual 22 Expected 22
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 28 Expected 29
+Deck: Actual 454 Expected 453
+Discard: Actual 0 Expected 0
+Played: Actual 23 Expected 23
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 29 Expected 30
+Deck: Actual 452 Expected 451
+Discard: Actual 0 Expected 0
+Played: Actual 24 Expected 24
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 30 Expected 31
+Deck: Actual 450 Expected 449
+Discard: Actual 0 Expected 0
+Played: Actual 25 Expected 25
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 31 Expected 32
+Deck: Actual 448 Expected 447
+Discard: Actual 0 Expected 0
+Played: Actual 26 Expected 26
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 32 Expected 33
+Deck: Actual 446 Expected 445
+Discard: Actual 0 Expected 0
+Played: Actual 27 Expected 27
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 33 Expected 34
+Deck: Actual 444 Expected 443
+Discard: Actual 0 Expected 0
+Played: Actual 28 Expected 28
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 34 Expected 35
+Deck: Actual 442 Expected 441
+Discard: Actual 0 Expected 0
+Played: Actual 29 Expected 29
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 35 Expected 36
+Deck: Actual 440 Expected 439
+Discard: Actual 0 Expected 0
+Played: Actual 30 Expected 30
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 36 Expected 37
+Deck: Actual 438 Expected 437
+Discard: Actual 0 Expected 0
+Played: Actual 31 Expected 31
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 37 Expected 38
+Deck: Actual 436 Expected 435
+Discard: Actual 0 Expected 0
+Played: Actual 32 Expected 32
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 38 Expected 39
+Deck: Actual 434 Expected 433
+Discard: Actual 0 Expected 0
+Played: Actual 33 Expected 33
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 39 Expected 40
+Deck: Actual 432 Expected 431
+Discard: Actual 0 Expected 0
+Played: Actual 34 Expected 34
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 40 Expected 41
+Deck: Actual 430 Expected 429
+Discard: Actual 0 Expected 0
+Played: Actual 35 Expected 35
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 41 Expected 42
+Deck: Actual 428 Expected 427
+Discard: Actual 0 Expected 0
+Played: Actual 36 Expected 36
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 42 Expected 43
+Deck: Actual 426 Expected 425
+Discard: Actual 0 Expected 0
+Played: Actual 37 Expected 37
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 43 Expected 44
+Deck: Actual 424 Expected 423
+Discard: Actual 0 Expected 0
+Played: Actual 38 Expected 38
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 44 Expected 45
+Deck: Actual 422 Expected 421
+Discard: Actual 0 Expected 0
+Played: Actual 39 Expected 39
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 45 Expected 46
+Deck: Actual 420 Expected 419
+Discard: Actual 0 Expected 0
+Played: Actual 40 Expected 40
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 46 Expected 47
+Deck: Actual 418 Expected 417
+Discard: Actual 0 Expected 0
+Played: Actual 41 Expected 41
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 47 Expected 48
+Deck: Actual 416 Expected 415
+Discard: Actual 0 Expected 0
+Played: Actual 42 Expected 42
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 48 Expected 49
+Deck: Actual 414 Expected 413
+Discard: Actual 0 Expected 0
+Played: Actual 43 Expected 43
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 49 Expected 50
+Deck: Actual 412 Expected 411
+Discard: Actual 0 Expected 0
+Played: Actual 44 Expected 44
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 50 Expected 51
+Deck: Actual 410 Expected 409
+Discard: Actual 0 Expected 0
+Played: Actual 45 Expected 45
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 51 Expected 52
+Deck: Actual 408 Expected 407
+Discard: Actual 0 Expected 0
+Played: Actual 46 Expected 46
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 52 Expected 53
+Deck: Actual 406 Expected 405
+Discard: Actual 0 Expected 0
+Played: Actual 47 Expected 47
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 53 Expected 54
+Deck: Actual 404 Expected 403
+Discard: Actual 0 Expected 0
+Played: Actual 48 Expected 48
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 54 Expected 55
+Deck: Actual 402 Expected 401
+Discard: Actual 0 Expected 0
+Played: Actual 49 Expected 49
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 55 Expected 56
+Deck: Actual 400 Expected 399
+Discard: Actual 0 Expected 0
+Played: Actual 50 Expected 50
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:28.12% of 569
+Branches executed:36.69% of 417
+Taken at least once:29.74% of 417
+Calls executed:14.85% of 101
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+
+***Adventurer Card Test***
+***Every 5th Card in Deck is a Treasure***
+
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 7 Expected 6
+Deck: Actual 489 Expected 494
+Discard: Actual 8 Expected 4
+Played: Actual 1 Expected 1
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 2
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 9 Expected 8
+Deck: Actual 474 Expected 479
+Discard: Actual 20 Expected 16
+Played: Actual 2 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 3
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 11 Expected 10
+Deck: Actual 459 Expected 464
+Discard: Actual 32 Expected 28
+Played: Actual 3 Expected 3
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 4
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 13 Expected 12
+Deck: Actual 444 Expected 449
+Discard: Actual 44 Expected 40
+Played: Actual 4 Expected 4
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 5
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 15 Expected 14
+Deck: Actual 429 Expected 434
+Discard: Actual 56 Expected 52
+Played: Actual 5 Expected 5
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 6
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 17 Expected 16
+Deck: Actual 414 Expected 419
+Discard: Actual 68 Expected 64
+Played: Actual 6 Expected 6
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 7
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 19 Expected 18
+Deck: Actual 399 Expected 404
+Discard: Actual 80 Expected 76
+Played: Actual 7 Expected 7
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 8
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 21 Expected 20
+Deck: Actual 384 Expected 389
+Discard: Actual 92 Expected 88
+Played: Actual 8 Expected 8
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 9
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 23 Expected 22
+Deck: Actual 369 Expected 374
+Discard: Actual 104 Expected 100
+Played: Actual 9 Expected 9
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 10
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 25 Expected 24
+Deck: Actual 354 Expected 359
+Discard: Actual 116 Expected 112
+Played: Actual 10 Expected 10
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 11
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 27 Expected 26
+Deck: Actual 339 Expected 344
+Discard: Actual 128 Expected 124
+Played: Actual 11 Expected 11
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 12
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 29 Expected 28
+Deck: Actual 324 Expected 329
+Discard: Actual 140 Expected 136
+Played: Actual 12 Expected 12
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 13
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 31 Expected 30
+Deck: Actual 309 Expected 314
+Discard: Actual 152 Expected 148
+Played: Actual 13 Expected 13
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 14
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 33 Expected 32
+Deck: Actual 294 Expected 299
+Discard: Actual 164 Expected 160
+Played: Actual 14 Expected 14
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 15
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 35 Expected 34
+Deck: Actual 279 Expected 284
+Discard: Actual 176 Expected 172
+Played: Actual 15 Expected 15
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 16
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 37 Expected 36
+Deck: Actual 264 Expected 269
+Discard: Actual 188 Expected 184
+Played: Actual 16 Expected 16
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 17
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 39 Expected 38
+Deck: Actual 249 Expected 254
+Discard: Actual 200 Expected 196
+Played: Actual 17 Expected 17
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 18
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 41 Expected 40
+Deck: Actual 234 Expected 239
+Discard: Actual 212 Expected 208
+Played: Actual 18 Expected 18
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 19
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 43 Expected 42
+Deck: Actual 219 Expected 224
+Discard: Actual 224 Expected 220
+Played: Actual 19 Expected 19
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 20
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 45 Expected 44
+Deck: Actual 204 Expected 209
+Discard: Actual 236 Expected 232
+Played: Actual 20 Expected 20
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:31.63% of 569
+Branches executed:39.57% of 417
+Taken at least once:32.61% of 417
+Calls executed:18.81% of 101
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+
+***Village Card Test***
+
+Single Village Iteration Test
+
+ITERATION 1
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 499 Expected 499
+Discard: Actual 0 Expected 0
+Played: Actual 1 Expected 1
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 2
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 498 Expected 498
+Discard: Actual 0 Expected 0
+Played: Actual 2 Expected 2
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 3
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 497 Expected 497
+Discard: Actual 0 Expected 0
+Played: Actual 3 Expected 3
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 4
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 496 Expected 496
+Discard: Actual 0 Expected 0
+Played: Actual 4 Expected 4
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 5
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 495 Expected 495
+Discard: Actual 0 Expected 0
+Played: Actual 5 Expected 5
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 6
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 494 Expected 494
+Discard: Actual 0 Expected 0
+Played: Actual 6 Expected 6
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 7
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 493 Expected 493
+Discard: Actual 0 Expected 0
+Played: Actual 7 Expected 7
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 8
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 492 Expected 492
+Discard: Actual 0 Expected 0
+Played: Actual 8 Expected 8
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 9
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 491 Expected 491
+Discard: Actual 0 Expected 0
+Played: Actual 9 Expected 9
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 10
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 490 Expected 490
+Discard: Actual 0 Expected 0
+Played: Actual 10 Expected 10
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 11
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 489 Expected 489
+Discard: Actual 0 Expected 0
+Played: Actual 11 Expected 11
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 12
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 488 Expected 488
+Discard: Actual 0 Expected 0
+Played: Actual 12 Expected 12
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 13
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 487 Expected 487
+Discard: Actual 0 Expected 0
+Played: Actual 13 Expected 13
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 14
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 486 Expected 486
+Discard: Actual 0 Expected 0
+Played: Actual 14 Expected 14
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 15
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 485 Expected 485
+Discard: Actual 0 Expected 0
+Played: Actual 15 Expected 15
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 16
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 484 Expected 484
+Discard: Actual 0 Expected 0
+Played: Actual 16 Expected 16
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 17
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 483 Expected 483
+Discard: Actual 0 Expected 0
+Played: Actual 17 Expected 17
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 18
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 482 Expected 482
+Discard: Actual 0 Expected 0
+Played: Actual 18 Expected 18
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 19
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 481 Expected 481
+Discard: Actual 0 Expected 0
+Played: Actual 19 Expected 19
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 20
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 480 Expected 480
+Discard: Actual 0 Expected 0
+Played: Actual 20 Expected 20
+Actions: Actual 1 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+MULTIPLE VILLAGE CARDS (5 PLAYS) - Player 0:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 5 Expected 5
+Deck: Actual 475 Expected 475
+Discard: Actual 0 Expected 0
+Played: Actual 25 Expected 25
+Actions: Actual 1 Expected 6
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:33.04% of 569
+Branches executed:39.57% of 417
+Taken at least once:32.85% of 417
+Calls executed:22.77% of 101
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+
+***Council Room Card Test***
+
+
+ITERATION 1
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 2
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 3
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 4
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 5
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 6
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 7
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 8
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 9
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 10
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 11
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 12
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 13
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 14
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 15
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 16
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 17
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 18
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 19
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+ITERATION 20
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+
+***All Council Room Tests Passed.***
+File 'dominion.c'
+Lines executed:34.45% of 569
+Branches executed:41.01% of 417
+Taken at least once:34.53% of 417
+Calls executed:25.74% of 101
+Creating 'dominion.c.gcov'
+
