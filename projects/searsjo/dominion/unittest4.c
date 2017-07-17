@@ -6,7 +6,7 @@
 /* Errors found in dominion.c
 * in scoreFor()
 gardens addition uses fullDeckCount, but only calls to look for a specific card
-deck addition uses limit for discardCount
+deck addition uses limit for discardCount in for loop
 */
 
 
@@ -188,9 +188,9 @@ int testScoreFor(){
 
 int main(){
 	int result=0;
-
+	printf("\n***TESTING SCOREFOR()***\n\n");
 	result = testScoreFor();
-
+	printf("\n***SCOREFOR() TESTING COMPLETE***\n");
 	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

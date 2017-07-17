@@ -96,8 +96,9 @@ int testCouncilRoom(){
 
 
 int main(){
-
+printf("\n***TESTING COUNCIL ROOM CARD***\n\n");
  int result = testCouncilRoom();
+ printf("\n***COUNCIL ROOM CARD TESTING COMPLETE***\n\n");
  	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

@@ -143,8 +143,9 @@ return test_status;
 
 
 int main(){
-
+printf("\n***TESTING ADVENTURER CARD***\n\n");
  int result = testAdv();
+ printf("\n***ADVENTURER CARD TESTING COMPLETE***\n");
  	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

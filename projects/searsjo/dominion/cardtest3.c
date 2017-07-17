@@ -142,8 +142,9 @@ int testVillage(){
 
 
 int main(){
-
+printf("\n***TESTING VILLAGE CARD***\n\n");
  int result = testVillage();
+ printf("\n***VILLAGE CARD TESTING COMPLETE***\n");
  	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

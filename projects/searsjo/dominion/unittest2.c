@@ -209,7 +209,9 @@ int testUpdateCoins(){
 
 int main(){
 	int result;
+	printf("\n***TESTING UPDATECOINS()***\n\n");
 	result = testUpdateCoins();
+	printf("\n***UPDATECOINS() TESTING COMPLETE***\n");
 	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

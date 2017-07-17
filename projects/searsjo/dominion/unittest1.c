@@ -289,7 +289,7 @@ int testBeginningState(const struct gameState *state){
 int main(){
 	int test_status = 0;
 	int loopCount = 0;
-
+printf("\n***TESTING INITIALIZEGAME()***\n\n");
 	for(loopCount=0; loopCount<10; loopCount++){
 		test_status=testPlayerCount();
 		if(test_status == -1) return 0;
@@ -365,7 +365,7 @@ int main(){
 		test_status = testBeginningState(&fourPlayerGame);
 		if(test_status == -1){ return 0;}
 	}
-
+	printf("\n***UPDATECOINS() TESTING COMPLETE***\n");
 	printf("\n\nALL initializeGame() TESTS PASSED SUCCESSFULLY.\n");
 
 	return 0;

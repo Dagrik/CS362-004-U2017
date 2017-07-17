@@ -1,5 +1,8 @@
 Result for running Dominion Unit tests:
 unittest1.c:
+
+***TESTING INITIALIZEGAME()***
+
 TESTING PLAYER COUNT:
 Player Count Too Low - Test Passed.
 Player Count Too High - Test Passed.
@@ -481,6 +484,8 @@ Beginning State Status - Two Player Game - Test Passed.
 Beginning State Status - Three Player Game - Test Passed.
 Beginning State Status - Four Player Game - Test Passed.
 
+***UPDATECOINS() TESTING COMPLETE***
+
 
 ALL initializeGame() TESTS PASSED SUCCESSFULLY.
 File 'dominion.c'
@@ -491,6 +496,9 @@ Calls executed:6.93% of 101
 Creating 'dominion.c.gcov'
 
 unittest2.c:
+
+***TESTING UPDATECOINS()***
+
 
 Testing updateCoin() With Various Hands.
 
@@ -504,6 +512,8 @@ Testing Mix of Hands and Bonuses.
 
 Testing Hands with Bonuses - Tests Passed.
 
+***UPDATECOINS() TESTING COMPLETE***
+
 
 ***All Tests Passed.***
 File 'dominion.c'
@@ -515,6 +525,9 @@ Creating 'dominion.c.gcov'
 
 unittest3.c:
 
+***TESTING FULLDECKCOUNT()***
+
+
 ***Checking For No Match.***
 No Match Tests Passed.
 
@@ -523,6 +536,8 @@ All Match Tests Passed.
 
 ***Checking For Mixed Matches.***
 Mixed Tests Passed.
+
+***FULLDECKCOUNT() TESTING COMPLETE***
 
 
 ***All Tests Passed.***
@@ -534,6 +549,9 @@ Calls executed:6.93% of 101
 Creating 'dominion.c.gcov'
 
 unittest4.c:
+
+***TESTING SCOREFOR()***
+
 No-Point in Hand - Test Passed.
 No-Point in Discard - Test Passed.
 No-Point in Deck - Test Passed.
@@ -591,6 +609,8 @@ Mixed Pile in Hand and Deck - Test Failed.  Actual: 18. Expected: 12.
 Mixed Pile in Discard and Deck - Test Failed.  Actual: 18. Expected: 12.
 Mixed Pile in All 3 - Test Failed.  Actual: 27. Expected: 12.
 
+***SCOREFOR() TESTING COMPLETE***
+
 
 ***Some Tests Failed.  Please Check Messages Above.***
 File 'dominion.c'
@@ -601,6 +621,9 @@ Calls executed:9.90% of 101
 Creating 'dominion.c.gcov'
 
 cardtest1.c:
+
+***TESTING SMITHY CARD***
+
 
 CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
 ***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
@@ -1202,6 +1225,8 @@ Player Position 1 - Test Passed.
 Player Position 2 - Test Passed.
 Player Position 3 - Test Passed.
 
+***SMITHY CARD TESTING COMPLETE***
+
 
 ***Some Tests Failed.  Please Check Messages Above.***
 File 'dominion.c'
@@ -1212,6 +1237,9 @@ Calls executed:14.85% of 101
 Creating 'dominion.c.gcov'
 
 cardtest2.c:
+
+***TESTING ADVENTURER CARD***
+
 
 ***Adventurer Card Test***
 ***Every 5th Card in Deck is a Treasure***
@@ -1495,6 +1523,8 @@ Player Position 1 - Test Passed.
 Player Position 2 - Test Passed.
 Player Position 3 - Test Passed.
 
+***ADVENTURER CARD TESTING COMPLETE***
+
 
 ***Some Tests Failed.  Please Check Messages Above.***
 File 'dominion.c'
@@ -1505,6 +1535,9 @@ Calls executed:18.81% of 101
 Creating 'dominion.c.gcov'
 
 cardtest3.c:
+
+***TESTING VILLAGE CARD***
+
 
 ***Village Card Test***
 
@@ -1823,6 +1856,8 @@ Player Position 1 - Test Passed.
 Player Position 2 - Test Passed.
 Player Position 3 - Test Passed.
 
+***VILLAGE CARD TESTING COMPLETE***
+
 
 ***Some Tests Failed.  Please Check Messages Above.***
 File 'dominion.c'
@@ -1833,6 +1868,9 @@ Calls executed:22.77% of 101
 Creating 'dominion.c.gcov'
 
 cardtest4.c:
+
+***TESTING COUNCIL ROOM CARD***
+
 
 ***Council Room Card Test***
 
@@ -2036,6 +2074,9 @@ TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
 Player Position 1 - Test Passed.
 Player Position 2 - Test Passed.
 Player Position 3 - Test Passed.
+
+***COUNCIL ROOM CARD TESTING COMPLETE***
+
 
 
 ***All Council Room Tests Passed.***
