@@ -262,9 +262,9 @@ int testFullDeckCount(){
 
 int main(){
 	int result;
-
+	printf("\n***TESTING FULLDECKCOUNT()***\n\n");
 	result = testFullDeckCount();
-	
+	printf("\n***FULLDECKCOUNT() TESTING COMPLETE***\n");
 	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;

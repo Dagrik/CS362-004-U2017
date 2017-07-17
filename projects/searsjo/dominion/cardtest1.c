@@ -82,8 +82,9 @@ return test_status;
 }
 
 int main(){
-
+printf("\n***TESTING SMITHY CARD***\n\n");
  int result = testSmithy();
+ printf("\n***SMITHY CARD TESTING COMPLETE***\n");
  	if(result == -1){
 		printf("\n\n***Some Tests Failed.  Please Check Messages Above.***\n");
 		return 0;
