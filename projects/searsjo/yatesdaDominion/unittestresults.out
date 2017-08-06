@@ -1,0 +1,769 @@
+Result for running Dominion Unit tests:
+unittest1.c:
+
+***TESTING INITIALIZEGAME()***
+
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING PLAYER COUNT:
+Player Count Too Low - Test Passed.
+Player Count Too High - Test Passed.
+Player Count 2 - Test Passed.
+Player Count 3 - Test Passed.
+Player Count 4 - Test Passed.
+PLAYER COUNT TESTS COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+TESTING KINGDOM CARD VARIATION:
+First Two Kingdom Cards The Same - Test Passed.
+Separated Two Kingdom Cards The Same - Test Passed.
+All Kingdom Cards Different - Test Passed.
+KINGDOM CARD VARIATION COMPLETE.
+
+
+***Test Attempt 1***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 2***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 3***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 4***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 5***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 6***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 7***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 8***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 9***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+
+***Test Attempt 10***
+
+
+CARD COUNT TESTS:
+
+Card Count - Two Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Three Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+
+Card Count - Four Player Game:
+Curse Card Count - Test Passed.
+Victory Card Count - Test Passed.
+Treasure Card Count - Test Passed.
+Kingdom Card Count - Test Passed.
+CARD COUNT TEST COMPLETE
+
+DECK/HAND COUNT TESTS:
+Player Deck and Hand Count - Two Player Game - Test Passed.
+Player Deck and Hand Count - Three Player Game - Test Passed.
+Player Deck and Hand Count - Four Player Game - Test Passed.
+DECK/HAND COUNT TEST COMPLETE
+
+TESTING BEGINNING STATE:
+Beginning State Status - Two Player Game - Test Passed.
+Beginning State Status - Three Player Game - Test Passed.
+Beginning State Status - Four Player Game - Test Passed.
+
+***UPDATECOINS() TESTING COMPLETE***
+
+
+ALL initializeGame() TESTS PASSED SUCCESSFULLY.
+File 'dominion.c'
+Lines executed:16.53% of 593
+Branches executed:15.93% of 427
+Taken at least once:14.29% of 427
+Calls executed:7.00% of 100
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+
+***TESTING UPDATECOINS()***
+
+
+Testing updateCoin() With Various Hands.
+
+Testing Various Hands - Tests Passed.
+
+Testing Bonus Coins.
+
+Testing Bonus Coins - Tests Passed.
+
+Testing Mix of Hands and Bonuses.
+
+Testing Hands with Bonuses - Tests Passed.
+
+***UPDATECOINS() TESTING COMPLETE***
+
+
+***All Tests Passed.***
+File 'dominion.c'
+Lines executed:16.86% of 593
+Branches executed:15.93% of 427
+Taken at least once:14.75% of 427
+Calls executed:7.00% of 100
+Creating 'dominion.c.gcov'
+
+unittest3.c:
+
+***TESTING FULLDECKCOUNT()***
+
+
+***Checking For No Match.***
+No Match Tests Passed.
+
+***Checking For All Match.***
+All Match Tests Passed.
+
+***Checking For Mixed Matches.***
+Mixed Tests Passed.
+
+***FULLDECKCOUNT() TESTING COMPLETE***
+
+
+***All Tests Passed.***
+File 'dominion.c'
+Lines executed:18.38% of 593
+Branches executed:18.74% of 427
+Taken at least once:17.56% of 427
+Calls executed:7.00% of 100
+Creating 'dominion.c.gcov'
+
+unittest4.c:
+
+***TESTING SCOREFOR()***
+
+No-Point in Hand - Test Passed.
+No-Point in Discard - Test Passed.
+No-Point in Deck - Test Passed.
+No-Point in Hand and Discard - Test Passed.
+No-Point in Hand and Deck - Test Passed.
+No-Point in Discard and Deck - Test Passed.
+No-Point in All 3 - Test Passed.
+Estate Pile in Hand - Test Passed.
+Estate Pile in Discard - Test Passed.
+Estate Pile in Deck - Test Passed.
+Estate Pile in Hand and Discard - Test Passed.
+Estate Pile in Hand and Deck - Test Passed.
+Estate Pile in Discard and Deck - Test Passed.
+Estate Pile in All 3 - Test Passed.
+Duchy Pile in Hand - Test Passed.
+Duchy Pile in Discard - Test Passed.
+Duchy Pile in Deck - Test Passed.
+Duchy Pile in Hand and Discard - Test Passed.
+Duchy Pile in Hand and Deck - Test Passed.
+Duchy Pile in Discard and Deck - Test Passed.
+Duchy Pile in All 3 - Test Passed.
+Province Pile in Hand - Test Passed.
+Province Pile in Discard - Test Passed.
+Province Pile in Deck - Test Passed.
+Province Pile in Hand and Discard - Test Passed.
+Province Pile in Hand and Deck - Test Passed.
+Province Pile in Discard and Deck - Test Passed.
+Province Pile in All 3 - Test Passed.
+Curse Pile in Hand - Test Passed.
+Curse Pile in Discard - Test Passed.
+Curse Pile in Deck - Test Passed.
+Curse Pile in Hand and Discard - Test Passed.
+Curse Pile in Hand and Deck - Test Passed.
+Curse Pile in Discard and Deck - Test Passed.
+Curse Pile in All 3 - Test Passed.
+Great Hall Pile in Hand - Test Passed.
+Great Hall Pile in Discard - Test Passed.
+Great Hall Pile in Deck - Test Passed.
+Great Hall Pile in Hand and Discard - Test Passed.
+Great Hall Pile in Hand and Deck - Test Passed.
+Great Hall Pile in Discard and Deck - Test Passed.
+Great Hall Pile in All 3 - Test Passed.
+Garden Pile in Hand - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Discard - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Deck - Test Failed.  Actual: 0. Expected: 3.
+Garden Pile in Hand and Discard - Test Failed.  Actual: 0. Expected: 6.
+Garden Pile in Hand and Deck - Test Failed.  Actual: 0. Expected: 6.
+Garden Pile in Discard and Deck - Test Failed.  Actual: 0. Expected: 6.
+Garden Pile in All 3 - Test Failed.  Actual: 0. Expected: 9.
+Mixed Pile in Hand - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Discard - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Deck - Test Failed.  Actual: 9. Expected: 12.
+Mixed Pile in Hand and Discard - Test Failed.  Actual: 18. Expected: 24.
+Mixed Pile in Hand and Deck - Test Failed.  Actual: 18. Expected: 24.
+Mixed Pile in Discard and Deck - Test Failed.  Actual: 18. Expected: 24.
+Mixed Pile in All 3 - Test Failed.  Actual: 27. Expected: 36.
+
+***SCOREFOR() TESTING COMPLETE***
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:22.43% of 593
+Branches executed:28.57% of 427
+Taken at least once:27.40% of 427
+Calls executed:10.00% of 100
+Creating 'dominion.c.gcov'
+
+cardtest1.c:
+
+***TESTING SMITHY CARD***
+
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 6 Expected 7
+Deck: Actual 497 Expected 497
+Discard: Actual 0 Expected 0
+Played: Actual 2 Expected 1
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+***SMITHY CARD TESTING COMPLETE***
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:28.67% of 593
+Branches executed:36.30% of 427
+Taken at least once:29.27% of 427
+Calls executed:17.00% of 100
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+
+***TESTING ADVENTURER CARD***
+
+
+***Adventurer Card Test***
+***Every 5th Card in Deck is a Treasure***
+
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 11 Expected 6
+Deck: Actual 490 Expected 494
+Discard: Actual 3 Expected 4
+Played: Actual 1 Expected 1
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Hand: Actual 1 Expected 0
+Deck: Actual 9 Expected 10
+Discard: Actual 0 Expected 0
+Player Position 2 - Hand: Actual 1 Expected 0
+Deck: Actual 9 Expected 10
+Discard: Actual 0 Expected 0
+Player Position 3 - Hand: Actual 1 Expected 0
+Deck: Actual 9 Expected 10
+Discard: Actual 0 Expected 0
+
+CURRENT PLAYER DECK, DISCARD, AND DECK TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 17 Expected 12
+Deck: Actual 469 Expected 480
+Discard: Actual 17 Expected 11
+Played: Actual 2 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Failed. Hand: 17, Deck: 469, Discard:17 
+Player Position 2 - Test Failed. Hand: 17, Deck: 469, Discard:17 
+Player Position 3 - Test Failed. Hand: 17, Deck: 469, Discard:17 
+
+***ADVENTURER CARD TESTING COMPLETE***
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:38.45% of 593
+Branches executed:43.33% of 427
+Taken at least once:35.60% of 427
+Calls executed:29.00% of 100
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+
+***TESTING VILLAGE CARD***
+
+
+***Village Card Test***
+
+Single Village Iteration Test
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+MULTIPLE VILLAGE CARDS (5 PLAYS) - Player 0:
+Test Passed.
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+***VILLAGE CARD TESTING COMPLETE***
+
+
+***All Tests Passed.***
+File 'dominion.c'
+Lines executed:38.45% of 593
+Branches executed:43.33% of 427
+Taken at least once:35.83% of 427
+Calls executed:29.00% of 100
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+
+***TESTING COUNCIL ROOM CARD***
+
+
+***Council Room Card Test***
+
+
+CURRENT PLAYER CARD PILES AND ACTIONS TEST:
+***PLAYER DECK, DISCARD, AND DECK TEST Failed.***
+Hand: Actual 9 Expected 8
+Deck: Actual 495 Expected 496
+Discard: Actual 0 Expected 0
+Played: Actual 1 Expected 1
+Buys: Actual 2 Expected 2
+
+TESTING OTHER PLAYER HAND, DECK, AND DISCARD PILES:
+Player Position 1 - Test Passed.
+Player Position 2 - Test Passed.
+Player Position 3 - Test Passed.
+
+***COUNCIL ROOM CARD TESTING COMPLETE***
+
+
+
+***Some Tests Failed.  Please Check Messages Above.***
+File 'dominion.c'
+Lines executed:38.45% of 593
+Branches executed:43.33% of 427
+Taken at least once:36.07% of 427
+Calls executed:29.00% of 100
+Creating 'dominion.c.gcov'
+

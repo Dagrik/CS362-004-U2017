@@ -1,0 +1,585 @@
+﻿Joshua Sears
+CS362-400
+Bugs in Teammates Code
+
+Title:	cardEffect plays multiple cards
+ID#: 1
+Class: Serious Bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   2 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+When using the Adventurer, CouncilRoom and Feast appear to run as well.  Other player’s card counts are effected, yet Adventurer card doesn’t appear to affect them.
+
+Steps to Produce/Reproduce
+--------------------------
+Run cardtest2.c or randomtestadventurer.c using “make unittestresults.out” or “make randomtestadventurer.out” and view output.
+
+
+Expected Results
+----------------
+Cards are pulled from deck until 2 treasure cards are placed in the hand, then the rest are discarded.  Other players are not effected.
+
+
+Actual Results
+--------------
+Multiple cards are placed in the hand, some not treasures.  Other players hands and decks are also effected.
+
+
+Workarounds
+-----------
+Call Adventurer() instead of calling cardEffect() to access adventurer.
+
+
+Attachments
+-----------
+line 675:
+switch( card ) 
+    {
+    case adventurer:
+
+	Adventurer(handPos, choice1, choice2, choice3, state);
+
+			
+    case council_room:
+    	
+	CouncilRoom(handPos, choice1, choice2, choice3, state);
+			
+    case feast:
+
+    	Feast(handPos, choice1, choice2, choice3, state);
+			
+    case gardens:
+      return -1;
+
+	case mine:
+      
+	Mine(handPos, choice1, choice2, choice3, state);
+			
+    case remodel:
+
+line 723:
+    case smithy:
+      //+3 Cards
+      	Smithy(handPos, choice1, choice2, choice3, state);
+		
+    case village:
+      //+1 Card
+      drawCard(currentPlayer, state);
+			
+      //+2 Actions
+      state->numActions = state->numActions + 2;
+			
+      //discard played card from hand
+      discardCard(handPos, currentPlayer, state, 0);
+      return 0;
+
+
+Other Information
+-----------------
+
+Title:    Deck gets reshuffled in Adventurer
+ID: 2
+Class: Moderate Bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   3 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+Current Player’s deck gets shuffled after each use of Adventurer card
+
+
+Steps to Produce/Reproduce
+--------------------------
+Run cardtest2.c or randomtestadventurer.c using “make unittestresults.out” or “make randomtestadventurer.out” (with LONG_ERRORS 1) and view output.  Compare deck scramble compared to manually tested deck.
+
+
+Expected Results
+----------------
+When playing card, only time deck is altered is when discards are shuffled and added to the end of the deck.
+
+
+Actual Results
+--------------
+Each time where deck was larger than 1, deck was shuffled regardless of adding discard.
+
+
+Workarounds
+-----------
+Line 1238 dominion.c: Change “state->deckCount[currentPlayer] > 1” to “state->deckCount[currentPlayer] < 1” or remove the line altogether as shuffle shuffles deck, which wouldn’t exist if deckCount < 1.
+
+
+Attachments
+-----------
+Debugging snippet:
+
+(gdb) n
+1237	  while(drawntreasure<2){
+(gdb) n
+1238		if (state->deckCount[currentPlayer] > 1){ //Assignment 2 Bug: Changed < to > 
+(gdb) print state->deck[currentPlayer]
+$1 = {22, 5, 3, 4, 5, 22, 13, 25, 4, 7, 2, 5, 5, 4, 21, 6, 25, 5, 6, 7, 19, 7, 
+  7, 3, 3, 4, 4, 19, 7, 5, 6, 22, 21, 6, 1, 10, 2, 21, 13, 19, 21, 25, 14, 10, 
+  22, 13, 1, 13, 11, 4, 13, 1, 4, 13, 6, 13, 14, 25, 10, 14, 22, 1, 21, 19, 
+  13, 14, 4, 25, 13, 14, 3, 7, 4, 14, 10, 6, 6, 3, 11, 10, 13, 3, 3, 14, 19, 
+  5, 6, 6, 22, 1, 3, 17, 4, 11, 1, 17, 19, 25, 5, 22, 4, 5, 22, 17, 2, 14, 10, 
+  4, 22, 21, 6, 5, 11, 5, 2, 2, 21, 4, 4, 13, 25, 13, 1, 22, 3, 4, 21, 25, 10, 
+  10, 13, 5, 6, 5, 7, 4, 3, 10, 11, 10, 25, 10, 1, 1, 6, 5, 5, 22, 21, 11, 5, 
+  1, 2, 13, 3, 1, 14, 11, 11, 11, 25, 2, 7, 14, 4, 7, 2, 13, 10, 14, 4, 13, 
+  17, 25, 21, 7, 14, 10, 22, 13, 21, 2, 21, 17, 25, 21, 22, 4, 5, 25, 3, 22, 
+  11, 7, 21, 3, 7, 17, 19, 22...}
+(gdb) n
+1240		  shuffle(currentPlayer, state);
+(gdb) n
+1242		drawCard(currentPlayer, state);
+(gdb) print state->deck[currentPlayer]
+$2 = {1, 3, 17, 5, 21, 3, 14, 13, 25, 21, 2, 3, 10, 10, 14, 14, 14, 1, 21, 2, 
+  5, 2, 11, 1, 3, 4, 21, 22, 4, 5, 3, 5, 13, 19, 1, 5, 19, 7, 4, 5, 11, 1, 3, 
+  10, 1, 21, 19, 10, 2, 14, 10, 22, 25, 22, 3, 4, 17, 10, 13, 5, 13, 1, 7, 5, 
+  19, 7, 4, 17, 6, 14, 2, 5, 14, 10, 5, 6, 19, 6, 25, 1, 6, 6, 2, 7, 14, 2, 1, 
+  19, 11, 25, 10, 5, 6, 7, 25, 5, 25, 1, 6, 10, 11, 22, 1, 14, 5, 10, 25, 6, 
+  25, 22, 1, 3, 19, 6, 25, 10, 17, 19, 25, 22, 6, 5, 10, 25, 19, 3, 2, 14, 2, 
+  5, 2, 21, 10, 22, 17, 17, 25, 7, 4, 22, 7, 25, 17, 11, 17, 21, 5, 6, 19, 17, 
+  3, 6, 10, 14, 25, 11, 21, 6, 4, 5, 5, 10, 14, 19, 7, 21, 3, 14, 4, 17, 17, 
+  22, 1, 22, 13, 13, 13, 13, 13, 4, 6, 25, 7, 25, 14, 1, 19, 11, 4, 1, 13, 11, 
+  2, 1, 21, 4, 1, 5, 5, 4...}
+
+
+Other Information
+-----------------
+drawCard function has a built in call to shuffle after discard is moved to deck.
+
+
+
+
+
+Title:   Adventurer Not Being Discarded after use 
+ID: 3
+Class: System Error
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   3 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+After use, adventurer card still left in hand instead of being discarded
+
+
+Steps to Produce/Reproduce
+--------------------------
+run “make randomtestadventurer.out” and compare expected hand and actual hand.  First card in actual hand always adventurer.  Must fix error#1 and #2 first.
+
+
+Expected Results
+----------------
+1st card in hand (hand[currentPlayer][0]) should be adventurer before using, then removed and replaced with the last card in the hand.  Therefore, one treasure in beginning of hand, one at end (if two treasures found).  The adventurer would be moved to the playedCard pile until the end of turn.
+
+
+Actual Results
+--------------
+Adventurer card left at position 0, two treasures at end of hand.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+Test Results:
+
+Test 500
+HandCount Mismatch.  Expected: 497, Actual: 498
+
+Expected Hand:4, 2, 21, 3, 19, 6, 7, 13, 21, 21, 14, 4, 25, 21, 4, 2, 5, 13, 6, 22, 3, 7, 5, 1, 22, 3, 22, 3, 6, 1, 22, 4, 5, 19, 13, 17, 17, 13, 1, 5, 7, 7, 11, 25, 21, 7, 21, 10, 13, 22, 17, 19, 22, 3, 21, 17, 2, 19, 14, 4, 11, 21, 11, 10, 2, 2, 11, 14, 19, 22, 2, 19, 14, 14, 3, 13, 14, 11, 5, 1, 19, 3, 11, 4, 2, 5, 3, 6, 14, 22, 25, 13, 19, 6, 4, 25, 4, 3, 4, 22, 10, 19, 4, 17, 5, 4, 2, 3, 3, 13, 6, 25, 19, 10, 22, 21, 1, 10, 22, 7, 14, 13, 13, 6, 11, 14, 14, 7, 22, 1, 22, 17, 11, 1, 19, 7, 25, 21, 3, 21, 3, 5, 2, 25, 1, 7, 1, 4, 10, 7, 4, 17, 13, 17, 7, 3, 25, 14, 3, 4, 7, 10, 2, 11, 2, 21, 21, 11, 1, 11, 6, 6, 10, 4, 17, 2, 4, 10, 19, 5, 10, 22, 3, 5, 21, 7, 4, 2, 14, 13, 19, 17, 4, 21, 13, 13, 6, 3, 2, 13, 11, 4, 21, 21, 17, 4, 17, 2, 5, 6, 13, 1, 2, 13, 19, 11, 13, 22, 14, 6, 5, 5, 7, 11, 10, 4, 2, 1, 13, 1, 25, 2, 25, 1, 17, 6, 25, 19, 4, 22, 17, 17, 3, 14, 1, 25, 19, 21, 13, 5, 22, 17, 21, 14, 4, 25, 1, 19, 17, 21, 11, 5, 11, 1, 19, 13, 13, 3, 22, 14, 22, 21, 25, 10, 13, 17, 13, 10, 4, 22, 6, 1, 25, 22, 7, 10, 13, 1, 13, 2, 14, 3, 13, 19, 6, 22, 22, 11, 10, 17, 19, 14, 4, 7, 11, 17, 17, 2, 11, 3, 7, 22, 6, 25, 17, 6, 19, 2, 13, 22, 6, 6, 10, 11, 11, 1, 25, 25, 22, 13, 5, 4, 6, 11, 4, 10, 13, 3, 3, 3, 2, 7, 10, 4, 25, 11, 21, 7, 14, 3, 22, 3, 5, 14, 11, 7, 7, 6, 25, 22, 11, 22, 6, 22, 19, 25, 14, 10, 21, 14, 7, 17, 14, 10, 2, 4, 25, 17, 4, 4, 14, 6, 4, 2, 3, 3, 3, 3, 5, 21, 10, 10, 13, 2, 14, 10, 11, 21, 22, 5, 13, 14, 3, 6, 17, 1, 25, 5, 10, 10, 21, 17, 2, 7, 22, 1, 3, 10, 1, 4, 19, 2, 5, 10, 6, 2, 22, 10, 11, 17, 6, 2, 25, 5, 5, 6, 19, 22, 25, 13, 14, 1, 1, 10, 1, 7, 3, 6, 10, 6, 25, 13, 4, 22, 4, 25, 10, 6, 19, 21, 10, 11, 17, 19, 7, 3, 17, 13, 10, 6, 22, 11, 13, 7, 21, 25, 7, 11, 14, 10, 10, 4, 5, 6, 1, 11, 14, 2, 22, 5, 17, 14, 7, 19, 5, 10, 6, 
+
+Actual Hand: 7, 2, 21, 3, 19, 6, 7, 13, 21, 21, 14, 4, 25, 21, 4, 2, 5, 13, 6, 22, 3, 7, 5, 1, 22, 3, 22, 3, 6, 1, 22, 4, 5, 19, 13, 17, 17, 13, 1, 5, 7, 7, 11, 25, 21, 7, 21, 10, 13, 22, 17, 19, 22, 3, 21, 17, 2, 19, 14, 4, 11, 21, 11, 10, 2, 2, 11, 14, 19, 22, 2, 19, 14, 14, 3, 13, 14, 11, 5, 1, 19, 3, 11, 4, 2, 5, 3, 6, 14, 22, 25, 13, 19, 6, 4, 25, 4, 3, 4, 22, 10, 19, 4, 17, 5, 4, 2, 3, 3, 13, 6, 25, 19, 10, 22, 21, 1, 10, 22, 7, 14, 13, 13, 6, 11, 14, 14, 7, 22, 1, 22, 17, 11, 1, 19, 7, 25, 21, 3, 21, 3, 5, 2, 25, 1, 7, 1, 4, 10, 7, 4, 17, 13, 17, 7, 3, 25, 14, 3, 4, 7, 10, 2, 11, 2, 21, 21, 11, 1, 11, 6, 6, 10, 4, 17, 2, 4, 10, 19, 5, 10, 22, 3, 5, 21, 7, 4, 2, 14, 13, 19, 17, 4, 21, 13, 13, 6, 3, 2, 13, 11, 4, 21, 21, 17, 4, 17, 2, 5, 6, 13, 1, 2, 13, 19, 11, 13, 22, 14, 6, 5, 5, 7, 11, 10, 4, 2, 1, 13, 1, 25, 2, 25, 1, 17, 6, 25, 19, 4, 22, 17, 17, 3, 14, 1, 25, 19, 21, 13, 5, 22, 17, 21, 14, 4, 25, 1, 19, 17, 21, 11, 5, 11, 1, 19, 13, 13, 3, 22, 14, 22, 21, 25, 10, 13, 17, 13, 10, 4, 22, 6, 1, 25, 22, 7, 10, 13, 1, 13, 2, 14, 3, 13, 19, 6, 22, 22, 11, 10, 17, 19, 14, 4, 7, 11, 17, 17, 2, 11, 3, 7, 22, 6, 25, 17, 6, 19, 2, 13, 22, 6, 6, 10, 11, 11, 1, 25, 25, 22, 13, 5, 4, 6, 11, 4, 10, 13, 3, 3, 3, 2, 7, 10, 4, 25, 11, 21, 7, 14, 3, 22, 3, 5, 14, 11, 7, 7, 6, 25, 22, 11, 22, 6, 22, 19, 25, 14, 10, 21, 14, 7, 17, 14, 10, 2, 4, 25, 17, 4, 4, 14, 6, 4, 2, 3, 3, 3, 3, 5, 21, 10, 10, 13, 2, 14, 10, 11, 21, 22, 5, 13, 14, 3, 6, 17, 1, 25, 5, 10, 10, 21, 17, 2, 7, 22, 1, 3, 10, 1, 4, 19, 2, 5, 10, 6, 2, 22, 10, 11, 17, 6, 2, 25, 5, 5, 6, 19, 22, 25, 13, 14, 1, 1, 10, 1, 7, 3, 6, 10, 6, 25, 13, 4, 22, 4, 25, 10, 6, 19, 21, 10, 11, 17, 19, 7, 3, 17, 13, 10, 6, 22, 11, 13, 7, 21, 25, 7, 11, 14, 10, 10, 4, 5, 6, 1, 11, 14, 2, 22, 5, 17, 14, 7, 19, 5, 10, 6, 4,
+
+(Notice the last two cards of the actual match the first and last card of expected, but card 7 (adventurer) is at the beginning of the actual)
+
+Other Information
+-----------------
+Adventurer card is not being discarded, either in the new function or afterward in the cardEffect call.  Adventurer function between line 1218 and 1256, cardEffect for adventurer call at line 679.
+
+
+
+
+
+
+
+
+
+
+
+
+Title:    Hand being discarded in Adventurer
+ID: 4
+Class: Moderate Bug 
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   3 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+When deck and discard count are 0, and adventurer card is run, cards from the player’s hand are discarded.
+
+
+Steps to Produce/Reproduce
+--------------------------
+Used randomtestadventurer.c test, with deck and discard count both 0 and handcount above 0.  
+
+
+Expected Results
+----------------
+With 0 deck and 0 discard, the discard pile should not grow.
+
+
+Actual Results
+--------------
+The discard pile grew from 0 to above 0.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+Initial Setup:
+PRE: Hand 22, Deck 0 and Discard 0
+POST: Hand 22, Deck 0 and Discard 0
+
+After Adventurer:
+PRE: Hand 21, Deck 0 and Discard 0
+POST: Hand 2, Deck 0 and Discard 19
+
+Test 390
+HandCount Mismatch.  Expected: 21, Actual: 2
+
+Expected Hand:17, 7, 6, 21, 10, 13, 3, 1, 7, 2, 1, 2, 10, 10, 10, 7, 22, 17, 13, 14, 25
+Actual Hand: 6, 7
+Expected Discard:
+
+Actual Discard: 21, 10, 13, 3, 1, 7, 2, 1, 2, 10, 10, 10, 7, 22, 17, 13, 14, 25, 17, 
+
+
+Other Information
+
+
+
+
+
+
+
+Title:    Too many cards picked up with Council Room
+ID: 5
+Class: Moderate Bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   3 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+Playing Council Room card allows player to draw 5 cards.
+
+
+Steps to Produce/Reproduce
+--------------------------
+Run “make randomtestcard2.out” and compare printed results in file.  Results are the same whether testing through cardEffect (with appropriate returns in the switch statement) or through CouncilRoom().
+
+
+Expected Results
+----------------
+When playing council_room, the current player should draw 4 cards, get one additional buy, and each other player should draw one card.
+
+
+Actual Results
+--------------
+The current player drew 5 cards, got +1 buy, and each other player drew 1 card.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+line 1279 (CouncilRoom function):
+	//+4 Cards
+  	for (i = 0; i < 5; i++)		← For loop boundary conditions give 5 cards
+	{
+	  drawCard(currentPlayer, state);
+	}
+
+
+Other Information
+-----------------
+If played through cardEffect(), the council_room card will be followed by feast without the appropriate return statement placed in the switch statement.
+
+Title:   Infinite loop in Adventurer	 
+ID: 6
+Class:  Serious Bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   3 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+When 1 or 0 treasure cards are present in the deck or discard, infinite loop run where drawnTreasure never reaches 2.  
+
+
+Steps to Produce/Reproduce
+--------------------------
+Run “make randomtestadventurer.out” and ensure only 1 or 0 treasure cards are present.
+
+
+Expected Results
+----------------
+Should continue through without causing errors if there are no further treasures.
+
+
+Actual Results
+--------------
+Goes into infinite loop when trying to repeatedly find a treasure.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+dominion.c: 1237
+ while(drawntreasure<2){
+	if (state->deckCount[currentPlayer] > 1){ //Assignment 2 Bug: Changed < to > 
+	//if the deck is empty we need to shuffle discard and add to deck
+	  shuffle(currentPlayer, state);
+	}
+	drawCard(currentPlayer, state);
+	cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+	  drawntreasure++;
+	else{
+	  temphand[z]=cardDrawn;
+	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+	  z++;
+	}
+
+Other Information
+-----------------
+Since drawCard contains a some error checking if deck is 0 after returning discard to deck, it should be checked before continuing to try finding more treasure cards.
+
+
+Title:    Card copy in Adventurer when deck starts at 0
+ID: 7
+Class: Moderate bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   4 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+Anytime the deck would start at 0, there would be a mismatch in the test and actual hand, and in the actual hand, the same card would appear at position 0 and at the last position.
+
+
+Steps to Produce/Reproduce
+--------------------------
+Run randomtestadventurer.c wich the deck set to 0 and discard above 0.
+
+
+Expected Results
+----------------
+Two treasures drawn, one at beginning of hand (due to discard of adventurer) and one at end, and two cards added to handCount
+
+
+Actual Results
+--------------
+Only one card added, however copied at position 0 and end.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+
+
+
+Other Information
+-----------------
+
+Title:  Smithy card doesn’t draw enough cards  
+ID: 8
+Class:Moderate bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   4 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+While running tests on Smithy card, each time it gave 1 less card than expected, and there was 1 extra card in the deck than expected.
+
+
+Steps to Produce/Reproduce
+--------------------------
+Run cardtest1.c by running “make unittestresults.out” and reading the results on cardtest1.c
+
+
+Expected Results
+----------------
+Hand should have +2 cards (3 drawn, and smithy placed into playedCard pile), deck should have -3 cards, and other players should have no change.
+
+
+Actual Results
+--------------
+Hand only had +1 card (including discard), deck had -2 cards, and other players piles remained unchanged.
+
+
+Workarounds
+-----------
+None.
+
+
+Attachments
+-----------
+line 1450: dominion.c
+  for (i = 0; i < 2; i++)		← only 2 iterations, not 3
+	{
+	  drawCard(currentPlayer, state);
+	}
+
+
+Other Information
+-----------------
+IF return statement added to cardEffect() after smithy, this stops village from running, which adds +1 card, then discards, which would mimic the same results as above.
+Title: Gardens do not add to victory correctly   
+ID: 9
+
+Class:Moderate bug
+e.g. "Feature Request", "System Error", "Serious Bug"
+
+Date:   4 Aug 17        
+Reported By:   Josh Sears
+Email:      searsjo@oregonstate.edu
+
+Product:   dominion.c           Version: Yates assignment-2
+Platform:  MacOS                Version: 10.12.6
+Browser:   Terminal MacOS       Version:  2.7.3
+URL: SSH onto flip2.engr.oregonstate.edu
+
+Is it reproducible: Yes / Occasionally / One Time / No
+
+Description
+===========
+While running a test on scoreFor(), when checking to ensure garden cards added appropriately to score, the gardens were not adding any points.  Since the cards were made to have 10 each in hand, deck, and discard, there should be 3 additional points.
+
+
+Steps to Produce/Reproduce
+--------------------------
+run unittest4.c by using “make unittestresults.out” and reading the output
+
+
+Expected Results
+----------------
+Each gardens card should provide 1 victory point per 10 cards owned by the player (hand, deck, and discard).  For the test, one card should provide 3 points, 2 cards 6 points, and 9 points if all three decks have one card.  Mixed piles, which contained only one garden card, should have added 3 (for having 30 cards).
+
+
+Actual Results
+--------------
+0 points were added in regards to any number of garden cards owned.
+
+
+Workarounds
+-----------
+None
+
+
+Attachments
+-----------
+
+
+
+Other Information
+-----------------
+The scoreFor() function (line 430 dominion.c) calculates the victory points per player.  On the three lines for gardens, the score equation calls for fullDeckCount, which only finds the number of a specific type of card in the deck, hand and discard.  
