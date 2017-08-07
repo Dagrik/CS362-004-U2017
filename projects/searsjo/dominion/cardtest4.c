@@ -20,7 +20,7 @@ int testCouncilRoom(){
 	int curDiscardCt[numPlayers];
 	int curDeckCt[numPlayers];
 	int curPlayedCt, curBuyCt;
-	int count, loopcounter;
+	int count;
 	int test_status=0;
 	int bonus=0;
 
@@ -48,8 +48,8 @@ int testCouncilRoom(){
 		memcpy(testState.deck[count], testDeck, MAX_DECK*sizeof(int));
 	}
 	printf("\n***Council Room Card Test***\n\n");
-	for(loopcounter=1; loopcounter <=20; loopcounter++){
-		printf("\nITERATION %i\n", loopcounter);
+	
+		
 		for(count = 0; count<numPlayers; count++){
 			curHandCt[count] = testState.handCount[count];
 			curDiscardCt[count] = testState.discardCount[count];
@@ -89,7 +89,7 @@ int testCouncilRoom(){
 				printf("Test Passed.\n");
 			}
 		}
-	}
+	
 
 	return test_status;
 }

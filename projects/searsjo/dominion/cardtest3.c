@@ -23,7 +23,7 @@ int testVillage(){
 	int curDiscardCt[numPlayers];
 	int curDeckCt[numPlayers];
 	int curPlayedCt, curActionCt;
-	int count, loopcounter;
+	int count;
 	int test_status=0;
 	int bonus=0;
 
@@ -52,8 +52,8 @@ int testVillage(){
 
 	printf("\n***Village Card Test***\n\n");
 	printf("Single Village Iteration Test\n");
-	for(loopcounter=1; loopcounter <=20; loopcounter++){
-		printf("\nITERATION %i\n", loopcounter);
+	
+		
 		for(count = 0; count<numPlayers; count++){
 			curHandCt[count] = testState.handCount[count];
 			curDiscardCt[count] = testState.discardCount[count];
@@ -93,7 +93,7 @@ int testVillage(){
 				printf("Test Passed.\n");
 			}
 		}
-	}
+	
 
 //Test for multiple plays of the village card
 	for(count = 0; count<numPlayers; count++){

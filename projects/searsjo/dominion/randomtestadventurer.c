@@ -1,7 +1,7 @@
 //Joshua Sears
 //CS362-400
 //Su17
-//Assignment 4 - Random Tester for Adventurer Card
+//Assignment 5 - Random Tester for Adventurer Card
 
 //Research on no cards https://www.boardgamegeeks.com/thread/376877/what-happens-when-you-have-no-deck-and-no-discard
 
@@ -71,7 +71,7 @@ void setupState(struct gameState *state){
 	
 	state->numPlayers = rand()%2+2;
 	state->playedCardCount = 0;
-	int selector=0;//rand()%100;
+    int selector=rand()%100;
 	state->whoseTurn = rand()%state->numPlayers;
 	for(count = 0; count <  state->numPlayers; count++){
 
@@ -94,15 +94,15 @@ void setupState(struct gameState *state){
 				state->discardCount[count] = 0;
 				break;
 
-			case 3:
-				state->deckCount[count] = MAX_DECK;
-				state->discardCount[count] = MAX_DECK;	
+	/*		case 3:
+				state->deckCount[count] = Random()*MAX_DECK;
+				state->discardCount[count] = MAX_DECK-state->deckCount[count];
 				state->handCount[count] = MAX_HAND;
 				break;
-			
+		*/	
 			default:
-				state->deckCount[count] = (rand()%MAX_DECK)+1;
-				state->discardCount[count] = (rand()%MAX_DECK)+1;
+				state->deckCount[count] = Random()*((MAX_DECK)-state->handCount[count]);
+				state->discardCount[count] = Random()*((MAX_DECK) - (state->deckCount[count] + state->handCount[count]));
 		}
 		
 		for(innercount = 0; innercount < state->handCount[count]; innercount++){
@@ -121,7 +121,7 @@ void setupState(struct gameState *state){
 				state->discard[count][innercount] = k[rand()%10];
 			}
 		}
-
+/*
 		else if (selector == 5){  //one treasure card
 			for(innercount = 0; innercount < state->deckCount[count]; innercount++){
 				if(innercount == 0){
@@ -133,7 +133,7 @@ void setupState(struct gameState *state){
 			for(innercount = 0; innercount < state->discardCount[count]; innercount++){
 				state->discard[count][innercount] = k[rand()%10];
 			}
-		} else {
+		}*/ else {
 
 			for(innercount = 0; innercount < state->deckCount[count]; innercount++){
 				state->deck[count][innercount] = k[rand()%16];
@@ -172,7 +172,7 @@ for(testloop=0; testloop<500; testloop++){
 	//run cardEffect on postState
 	//random setup always has adventurer card in handpos 0
 	cardEffect(adventurer, 1, 0, 0, &postState, 0, 0);
-	
+
 
 	//manually change preState
 	int curPlayer = preState.whoseTurn;
@@ -206,8 +206,9 @@ for(testloop=0; testloop<500; testloop++){
 			}
 
 		}
-	
-		//move adventurer card to playedHand
+	}
+
+	//move adventurer card to playedHand
 		preState.playedCards[preState.playedCardCount] = preState.hand[curPlayer][0];
 		preState.playedCardCount++;
 
@@ -219,7 +220,8 @@ for(testloop=0; testloop<500; testloop++){
 			preState.hand[curPlayer][preState.handCount[curPlayer]-1] = -1;
 			preState.handCount[curPlayer]--;
 		}
-}
+
+
 	if(LONG_ERRORS){
 		printf("\nAfter Adventurer:\nPRE: Hand %i, Deck %i and Discard %i\n", preState.handCount[preState.whoseTurn],  preState.deckCount[preState.whoseTurn], preState.discardCount[preState.whoseTurn]);
 		printf("\nPOST: Hand %i, Deck %i and Discard %i\n", postState.handCount[preState.whoseTurn], postState.deckCount[preState.whoseTurn], postState.discardCount[preState.whoseTurn]);

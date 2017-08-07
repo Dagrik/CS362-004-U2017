@@ -75,7 +75,7 @@ int testHelper(struct gameState *state, int hand[10], int expectedScore, char na
 	actualScore = scoreFor(0, state);
 
 	if(actualScore != 2*expectedScore){
-		printf("%s in Hand and Discard - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, expectedScore);
+		printf("%s in Hand and Discard - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, 2*expectedScore);
 		result= -1;
 	}else{
 		printf ("%s in Hand and Discard - Test Passed.\n", name);
@@ -89,7 +89,7 @@ int testHelper(struct gameState *state, int hand[10], int expectedScore, char na
 	actualScore = scoreFor(0, state);
 
 	if(actualScore != 2*expectedScore){
-		printf("%s in Hand and Deck - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, expectedScore);
+		printf("%s in Hand and Deck - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, 2*expectedScore);
 		result= -1;
 	}else{
 		printf ("%s in Hand and Deck - Test Passed.\n", name);
@@ -103,7 +103,7 @@ int testHelper(struct gameState *state, int hand[10], int expectedScore, char na
 	actualScore = scoreFor(0, state);
 
 	if(actualScore != 2*expectedScore){
-		printf("%s in Discard and Deck - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, expectedScore);
+		printf("%s in Discard and Deck - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, 2*expectedScore);
 		result= -1;
 	}else{
 		printf ("%s in Discard and Deck - Test Passed.\n", name);
@@ -117,7 +117,7 @@ int testHelper(struct gameState *state, int hand[10], int expectedScore, char na
 	actualScore = scoreFor(0, state);
 
 	if(actualScore != 3*expectedScore){
-		printf("%s in All 3 - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, expectedScore);
+		printf("%s in All 3 - Test Failed.  Actual: %i. Expected: %i.\n", name, actualScore, 3*expectedScore);
 		result= -1;
 	}else{
 		printf ("%s in All 3 - Test Passed.\n", name);

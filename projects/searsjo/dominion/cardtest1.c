@@ -19,7 +19,7 @@ int testSmithy(){
 	int curHandCt[numPlayers];
 	int curDiscardCt[numPlayers];
 	int curDeckCt[numPlayers];
-	int count, loopcounter;
+	int count;
 
 	int randomSeed = 2;
 	struct gameState testState;
@@ -41,7 +41,7 @@ int testSmithy(){
 	memcpy(testState.hand[0], testHand, 5*sizeof(int));
 	memcpy(testState.deck[0], testDeck, MAX_DECK*sizeof(int));
 
-for (loopcounter = 0; loopcounter < 50; loopcounter++){
+
 		//save current counts for all players
 		for(count = 0; count<numPlayers; count++){
 			curHandCt[count] = testState.handCount[count];
@@ -76,7 +76,7 @@ for (loopcounter = 0; loopcounter < 50; loopcounter++){
 				printf("Test Passed.\n");
 			}
 		}
-	}	
+		
 return test_status;
 
 }

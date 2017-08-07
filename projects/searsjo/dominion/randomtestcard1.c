@@ -125,7 +125,7 @@ int testVillage(){
 	struct gameState preState, postState;
 
 
-	for(testloop = 0; testloop<MAX_DECK*10; testloop++){
+	for(testloop = 0; testloop<MAX_DECK; testloop++){
 		//copy gameState over to pre
 		setupState(&postState);
 		memcpy(&preState, &postState, sizeof(struct gameState));
@@ -155,7 +155,7 @@ int testVillage(){
 		}
 
 		//Subtract one action for using card
-		preState.numActions--;
+		//preState.numActions--;
 
 		//+1 Card
 		if(preState.deckCount[player] > 0){

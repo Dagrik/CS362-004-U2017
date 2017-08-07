@@ -21,7 +21,7 @@ int testAdv(){
 	int curDiscardCt[numPlayers];
 	int curDeckCt[numPlayers];
 	int curPlayedCt;
-	int count, loopcounter;
+	int count;
 	int test_status=0;
 	int bonus=0;
 
@@ -99,10 +99,9 @@ int testAdv(){
 		}
 
 
-for (loopcounter = 2; loopcounter <= 20; loopcounter++){
 	//get current card counts for later testing
 		
-		printf("\nITERATION %i\n", loopcounter);
+		
 		for(count = 0; count<numPlayers; count++){
 				curHandCt[count] = testState.handCount[count];
 				curDiscardCt[count] = testState.discardCount[count];
@@ -137,7 +136,7 @@ for (loopcounter = 2; loopcounter <= 20; loopcounter++){
 				printf("Test Passed.\n");
 			}
 		}
-}
+
 return test_status;
 }
 
